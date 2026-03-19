@@ -18,15 +18,15 @@ Each forte has its own spec in [`fortes/`](fortes/). Here's what they do:
 
 | Forte | Job |
 |-------|-----|
-| [prose-scribe](fortes/prose-scribe/forte.md) | Drafts scene prose in the author's voice |
-| [voice-guardian](fortes/voice-guardian/forte.md) | Protects voice in existing prose and dialogue |
-| [slop-detector](fortes/slop-detector/forte.md) | Flags AI tells — confident vagueness, ornamental abstraction, the smooth and generic |
-| [scene-architect](fortes/scene-architect/forte.md) | Scenes build, never catalogue |
-| [continuity-keeper](fortes/continuity-keeper/forte.md) | The manuscript remembers what it said |
-| [character-warden](fortes/character-warden/forte.md) | Characters are consistent, distinct, and growing |
-| [dialogue-tuner](fortes/dialogue-tuner/forte.md) | Dialogue sounds like the speaker, not the author |
-| [pacing-reader](fortes/pacing-reader/forte.md) | Tension and release alternate |
-| [world-auditor](fortes/world-auditor/forte.md) | The world follows its own rules |
+| [prose-scribe](fortes/prose-scribe.md) | Drafts scene prose in the author's voice |
+| [voice-guardian](fortes/voice-guardian.md) | Protects voice in existing prose and dialogue |
+| [cognition-sensor](fortes/cognition-sensor.md) | Flags AI tells — confident vagueness, ornamental abstraction, the smooth and generic |
+| [scene-architect](fortes/scene-architect.md) | Scenes build, never catalogue |
+| [continuity-keeper](fortes/continuity-keeper.md) | The manuscript remembers what it said |
+| [character-warden](fortes/character-warden.md) | Characters are consistent, distinct, and growing |
+| [dialogue-tuner](fortes/dialogue-tuner.md) | Dialogue sounds like the speaker, not the author |
+| [pacing-reader](fortes/pacing-reader.md) | Tension and release alternate |
+| [world-auditor](fortes/world-auditor.md) | The world follows its own rules |
 
 ## Talents
 
@@ -34,17 +34,17 @@ Shared skill domains in [`talents/`](talents/):
 
 | Talent | Domain |
 |--------|--------|
-| [voice-craft](talents/voice-craft/talent.md) | Recognising and preserving the author's voice |
-| [editorial](talents/editorial/talent.md) | Refining prose: structure, rhythm, compression |
-| [slop-detection](talents/slop-detection/talent.md) | Detecting AI-generated text via costly cognition |
-| [critical-stance](talents/critical-stance/talent.md) | Evaluative disposition: honesty over agreeableness |
-| [narrative-structure](talents/narrative-structure/talent.md) | How novels build across scenes, chapters, and parts |
-| [scene-craft](talents/scene-craft/talent.md) | What makes a scene work as a unit of fiction |
-| [character-craft](talents/character-craft/talent.md) | How characters exist in fiction |
-| [dialogue-craft](talents/dialogue-craft/talent.md) | How dialogue works: rhythm, subtext, economy |
-| [world-building](talents/world-building/talent.md) | Internal consistency of fictional worlds |
-| [scrivener-nav](talents/scrivener-nav/talent.md) | Navigating Scrivener 3 project bundles |
-| [kb-extraction](talents/kb-extraction/talent.md) | Persistent knowledge base: extraction, merge, artefacts |
+| [voice-craft](talents/voice-craft.md) | Recognising and preserving the author's voice |
+| [editorial](talents/editorial.md) | Refining prose: structure, rhythm, compression |
+| [cognition-sensing](talents/cognition-sensing.md) | Detecting AI-generated text via costly cognition |
+| [critical-stance](talents/critical-stance.md) | Evaluative disposition: honesty over agreeableness |
+| [narrative-structure](talents/narrative-structure.md) | How novels build across scenes, chapters, and parts |
+| [scene-craft](talents/scene-craft.md) | What makes a scene work as a unit of fiction |
+| [character-craft](talents/character-craft.md) | How characters exist in fiction |
+| [dialogue-craft](talents/dialogue-craft.md) | How dialogue works: rhythm, subtext, economy |
+| [world-building](talents/world-building.md) | Internal consistency of fictional worlds |
+| [scrivener-nav](talents/scrivener-nav.md) | Navigating Scrivener 3 project bundles |
+| [kb-extraction](talents/kb-extraction.md) | Persistent knowledge base: extraction, merge, artefacts |
 
 ## The governing principle
 

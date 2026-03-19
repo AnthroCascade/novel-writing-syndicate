@@ -1,4 +1,4 @@
-# Slop Detection
+# Cognition Sensing
 
 ## Domain
 
@@ -11,20 +11,6 @@ and evidence of costly cognition.
 Identifying the production process behind prose.
 Polish is cheap. Cognition is expensive. Surface
 fluency proves nothing.
-
-**Preconditions:**
-- Drawing forte has provided prose for analysis; three reads completed
-
-**Postconditions:**
-- Each dimension assessed with specific evidence
-- Production estimate included
-
-**Invariant:**
-- Surface signals are insufficient alone; costly cognition is the primary test
-- "Clean" is earned, not default
-
-**Obligations:**
-- Provides drawing forte: primary signals and costly cognition test as detection framework
 
 ## Lens 1: Another Consciousness
 
@@ -164,9 +150,9 @@ is a signal, not proof.
 
 ## Boundary
 
-What slop-detection IS: inferring the production
+What cognition-sensing IS: inferring the production
 process behind text. Identifying absence of human
 consciousness.
 
-What slop-detection is NOT: style criticism. A badly
+What cognition-sensing is NOT: style criticism. A badly
 written human text is not slop. A polished AI text is.

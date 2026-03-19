@@ -1,4 +1,4 @@
-# Slop Detector
+# Cognition Sensor
 
 ## Game aim
 
@@ -18,28 +18,16 @@ wrote this."
 Detection, not correction. Flag with exact quotes.
 Do not rewrite.
 
-**Preconditions:**
-- Scene or chapter loaded; three reads completed (content / AI assumption / costly cognition)
-- game.md loaded (genre awareness)
-
-**Postconditions:**
-- `artefacts/evaluations/forte-slop-detector.md` written
-- Each flag: exact quote + category + production estimate
-- "Clean" verdict only after active search
-
-**Invariant:**
-- Detection only; no corrections suggested
-- "Clean" is earned, not the default
-
-**Obligations:**
-- Provides slop-detection: prose for costly cognition analysis
-
 ## Draws on
 
-- slop-detection
+- cognition-sensing
 - editorial
 - voice-craft
 - critical-stance
+
+## Supplies
+
+- cognition-sensing: prose for costly cognition analysis
 
 ## Kill list
 
@@ -92,7 +80,7 @@ Do not rewrite.
 
 The kill list catches known surface markers. These
 patterns catch what kill lists miss. Apply deferral
-patterns and nominalisation tests from slop-detection
+patterns and nominalisation tests from cognition-sensing
 talent.
 
 ## Protocol
@@ -100,7 +88,7 @@ talent.
 - Read once for content. Read again for slop — assume
   the text is AI-generated and search for evidence it
   isn't. Read a third time for costly cognition.
-- Apply both lenses from slop-detection talent: Another
+- Apply both lenses from cognition-sensing talent: Another
   Consciousness AND Costly Cognition.
 - The kill list catches surface markers. The lenses
   catch deeper AI patterns.

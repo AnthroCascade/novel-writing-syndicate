@@ -8,27 +8,9 @@
 - continuity-keeper — the manuscript remembers what it said
 - character-warden — characters are consistent, distinct, and growing
 - dialogue-tuner — dialogue sounds like the speaker, not the author
-- slop-detector — no AI tells in output
+- cognition-sensor — no AI tells in output
 - pacing-reader — tension and release alternate, reader never trapped in one gear
 - world-auditor — the world follows its own rules
-
-## Holonic contract
-
-**Preconditions:**
-- game.md names this syndicate; Scrivener project accessible or manuscript files present
-- Knowledge base artefacts initialised or accessible (characters.md, timeline.md, etc.)
-
-**Postconditions:**
-- Every evaluation phase produces forte evaluation files against the current scene/chapter
-- Knowledge base artefacts updated by KB-equipped fortes (continuity-keeper, character-warden, world-auditor)
-
-**Invariant:**
-- Author's voice takes precedence over craft defaults; all fortes suppress AI's default (smooth, cinematic, emotionally-signposted fiction fast)
-- Content syndicate fortes operate on manuscript; they do not govern process (coordination syndicate's domain)
-
-**Obligations:**
-- Provides each forte: phase assignment, talent paths, settles-when condition
-- Provides game: the phase table as single source of truth for forte-per-scene
 
 ## Misaligned game
 
@@ -79,7 +61,7 @@ Seven named failure modes and their defences:
 |---|---|---|---|
 | **Premature resolution** | AI wraps up conflicts, explains mysteries too early | scene-architect (Change test) | "That resolves too early. Keep open until [X]." |
 | **Information bleed** | Character acts on knowledge they don't have | character-warden (Knowledge test) + continuity-keeper | Check characters.md knowledge state for scene's timeline position |
-| **Voice flattening** | Prose gets smoother, more generic across sessions | voice-guardian + slop-detector | Fire `/polish`; recalibrate against voice markers |
+| **Voice flattening** | Prose gets smoother, more generic across sessions | voice-guardian + cognition-sensor | Fire `/polish`; recalibrate against voice markers |
 | **Helpful synopsis** | AI summarises rather than dramatises; tells not shows | scene-architect (Earn test) + dialogue-tuner | "That's synopsis, not scene. Show through action and dialogue." |
 | **Arc amnesia** | Subplots vanish; threads set up earlier never return | ledger + arc-tracker | Fire `/ledger`; check arc-tracker for dormant threads |
 | **Forte contradiction** | Two fortes give opposing advice (e.g. compress vs preserve) | Author decision | Present trade-off explicitly; author resolves |
@@ -127,7 +109,7 @@ scenes are at different phases simultaneously.
 | Explore | scene-architect, continuity-keeper, world-auditor | Scope understood, maturity mapped, context loaded |
 | Draft | prose-scribe (+ convergence loop) | Author accepts scene |
 | Evaluate | scene-architect, character-warden, dialogue-tuner, continuity-keeper, pacing-reader | Scene works as storytelling |
-| Polish | voice-guardian, slop-detector | Voice clean, no AI tells |
+| Polish | voice-guardian, cognition-sensor | Voice clean, no AI tells |
 | Audit | continuity-keeper, world-auditor | No internal contradictions at scope |
 | Revise | prose-scribe (correction mode) | Known fixes applied |
 
@@ -167,7 +149,7 @@ asks the author to specify.
 | draft | Draft | prose-scribe + convergence loop | convergence-loop | Author accepts |
 | explore | Explore | scene-architect, continuity-keeper, world-auditor | parallel-evaluation | Scope mapped |
 | evaluate | Evaluate | scene-architect, character-warden, dialogue-tuner, continuity-keeper, pacing-reader | parallel-evaluation | Scene works |
-| polish | Polish | voice-guardian, slop-detector | parallel-evaluation | Voice clean |
+| polish | Polish | voice-guardian, cognition-sensor | parallel-evaluation | Voice clean |
 | audit | Audit | continuity-keeper, world-auditor | parallel-evaluation | No contradictions |
 | revise | Revise | prose-scribe (corrections) | single-agent | Corrections applied |
 
@@ -181,7 +163,7 @@ process. These implement the processes from
 | Command       | Source protocol  | Evaluation fortes | Generation forte | Scope          |
 |---------------|-----------------|-------------------|------------------|----------------|
 | developmental | developmental.md | scene-architect, character-warden, dialogue-tuner, continuity-keeper, pacing-reader | prose-scribe (draft mode) → voice-guardian (verification) | scene, chapter |
-| subedit       | subeditor.md    | voice-guardian, slop-detector | prose-scribe (revision mode) | scene, chapter |
+| subedit       | subeditor.md    | voice-guardian, cognition-sensor | prose-scribe (revision mode) | scene, chapter |
 
 ### Lifecycle commands
 
@@ -217,7 +199,7 @@ StatusID):
 - **To Do (1)** — only scene-architect and
   continuity-keeper fire. Evaluate synopsis, not prose.
 - **First Draft (2)** — lighter evaluation.
-  Voice-guardian and slop-detector less relevant on
+  Voice-guardian and cognition-sensor less relevant on
   rough prose. Structure and character fortes fire.
 - **Second Draft (28)** — full evaluation, all fortes.
 - **Blocked (26)** — `/explore` to understand context.
@@ -246,11 +228,11 @@ engages:
   chapter and part scope
 - prose-scribe: draft and revise phases
 - voice-guardian: polish phase, but always available
-- slop-detector: polish phase, but always available
+- cognition-sensor: polish phase, but always available
 
 ## Knowledge base
 
-See `talents/kb-extraction/talent.md` for the full
+See `talents/kb-extraction.md` for the full
 KB protocol: artefact files, extraction stance, merge
 rules, and context stratification.
 
@@ -293,5 +275,5 @@ using hybrid integration:
 5. Scope resolution matches titles in the parsed
    binder tree
 
-See `talents/scrivener-nav/talent.md` for full
+See `talents/scrivener-nav.md` for full
 navigation specification.

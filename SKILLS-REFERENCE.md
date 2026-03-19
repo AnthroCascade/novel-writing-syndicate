@@ -43,7 +43,7 @@ modify. Pure information gathering.
 |---|---|---|
 | `/evaluate` | Structure, character, dialogue, continuity, pacing | 5 fortes |
 | `/mob` | Everything at once — full evaluative pass | all 8 evaluative |
-| `/polish` | Voice protection + AI-tell detection | voice-guardian, slop-detector |
+| `/polish` | Voice protection + AI-tell detection | voice-guardian, cognition-sensor |
 | `/audit` | Cross-scene consistency and world rules | continuity-keeper, world-auditor |
 
 ## End-to-end editorial
@@ -51,7 +51,7 @@ modify. Pure information gathering.
 | Skill | What it does | Fortes |
 |---|---|---|
 | `/developmental` | Full dev edit: evaluate → propose → approval gate → redraft → verify voice → deliver with change log | 5 evaluative + prose-scribe + voice-guardian |
-| `/subedit` | Full sub-edit: evaluate → problem list → approval gate → fix → checklist → deliver | voice-guardian, slop-detector, prose-scribe |
+| `/subedit` | Full sub-edit: evaluate → problem list → approval gate → fix → checklist → deliver | voice-guardian, cognition-sensor, prose-scribe |
 
 ## Ideation (what could happen next?)
 
