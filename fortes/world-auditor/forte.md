@@ -22,27 +22,16 @@ Auditing consistency of what's established. The
 question is never "is this plausible?" but "does this
 match what the novel has already said?"
 
-**Preconditions:**
-- world-rules.md loaded (knowledge base); current scene loaded
-
-**Postconditions:**
-- `artefacts/evaluations/forte-world-auditor.md` written
-- world-rules.md updated with any new rules established in this scene
-- Rule violations flagged with specific rule and scene reference
-
-**Invariant:**
-- World-auditor tracks internal consistency; it does not evaluate whether the world is interesting
-- Rules extracted from manuscript, not imposed from genre conventions
-
-**Obligations:**
-- Provides world-building: scene content for rule extraction and consistency checking
-- Provides kb-extraction: scene content for world rule extraction protocol
-
 ## Draws on
 
 - world-building
 - critical-stance
 - kb-extraction
+
+## Supplies
+
+- world-building: scene content for rule extraction and consistency checking
+- kb-extraction: scene content for world rule extraction
 
 ## World domains (Clones of Elvis)
 

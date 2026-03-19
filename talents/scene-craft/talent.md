@@ -11,21 +11,6 @@ functions.
 Change over coverage. A scene exists to change
 something, not to show something.
 
-**Preconditions:**
-- Drawing forte has provided scene content for entry/exit and internal structure analysis
-
-**Postconditions:**
-- Entry assessed (in-scene before in-head or in-dialogue)
-- Exit assessed (scene ends on action/revelation, not summary)
-- Internal complication identified or absence flagged
-
-**Invariant:**
-- Scene-craft evaluates technique, not subject matter
-- Build, not catalogue; every scene element must serve scene function
-
-**Obligations:**
-- Provides drawing forte: scene entry/exit rules and complication framework
-
 ## Scene anatomy
 
 ### Entry

@@ -22,28 +22,16 @@ be reordered without loss, structure has failed. If
 a scene ends with the same situation it started with,
 it has no reason to exist.
 
-**Preconditions:**
-- Scene loaded; position in narrative arc known
-- game.md loaded (genre, narrative structure declarations)
-
-**Postconditions:**
-- `artefacts/evaluations/forte-scene-architect.md` written
-- Each finding specifies: structural diagnosis, scene function, dependency failure if applicable
-- Scope extensions presented separately from findings
-
-**Invariant:**
-- Scene-architect diagnoses structure; it does not restructure without request
-- Build, not catalogue; scenes exist to DO something in the arc, not to present information
-
-**Obligations:**
-- Provides narrative-structure: scene content for arc and function analysis
-- Provides scene-craft: scene content for entry/exit and complication assessment
-
 ## Draws on
 
 - narrative-structure
 - scene-craft
 - critical-stance
+
+## Supplies
+
+- narrative-structure: scene content for arc and function analysis
+- scene-craft: scene content for entry/exit and complication assessment
 
 ## Scene tests
 

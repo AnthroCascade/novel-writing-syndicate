@@ -10,21 +10,6 @@ distinctive voice.
 Authenticity over correctness. The prose should sound
 like the author, not like good writing in general.
 
-**Preconditions:**
-- Drawing forte has provided prose for analysis
-- For voice derivation: corpus of author's work available
-
-**Postconditions:**
-- Voice patterns extracted as patterns (not examples); tested by absence
-- Novel-specific: narrator voice and character voices assessed separately
-
-**Invariant:**
-- Authenticity over correctness; author consistency outweighs style guides
-- Voice-craft operates at narrator level AND character level; they must be distinct
-
-**Obligations:**
-- Provides drawing forte: voice pattern analysis, preservation rules, and voice vs error test
-
 ## Voice components
 
 - **Rhythm:** Sentence length patterns, cadence, where

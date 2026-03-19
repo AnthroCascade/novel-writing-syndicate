@@ -26,29 +26,18 @@ approved corrections with minimum alteration.
 What you produce. Every draft: does it sound like
 the author, or like competent MFA workshop fiction?
 
-**Preconditions:**
-- In draft mode: scene synopsis/notes loaded; adjacent content available for context
-- In revision mode: approved corrections from evaluation files loaded; scope defined
-
-**Postconditions:**
-- In draft mode: scene prose written in author's voice; no unrequested content added
-- In revision mode: approved corrections applied; no scope creep beyond correction list
-
-**Invariant:**
-- Generation, not evaluation; prose-scribe does not flag its own output for voice or slop
-- Kill list items never appear; Australian spelling always
-
-**Obligations:**
-- Provides voice-craft: draft content for voice constraint application during generation
-- Provides scene-craft: scene inputs (synopsis, notes, adjacents) for structure guidance
-
 ## Draws on
 
 - voice-craft
 - editorial
-- slop-detection
+- cognition-sensing
 - scene-craft
 - critical-stance
+
+## Supplies
+
+- voice-craft: draft content for voice constraint application during generation
+- scene-craft: scene inputs (synopsis, notes, adjacents) for structure guidance
 
 ## Modes
 
@@ -75,7 +64,7 @@ Zero additions, zero "while I'm here" improvements.
   rewrite it before presenting. The test: what does
   the subject DO?
 - Rhythm matters: process by sound before presenting.
-- Deferral patterns from slop-detection talent are
+- Deferral patterns from cognition-sensing talent are
   active generation constraints.
 
 ## Scene inputs

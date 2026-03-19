@@ -3,22 +3,6 @@
 How the syndicate builds and maintains the persistent
 knowledge base.
 
-**Preconditions:**
-- Drawing forte has provided scene content for fact extraction
-- Target knowledge base artefact identified (characters.md / timeline.md / continuity.md / world-rules.md)
-
-**Postconditions:**
-- Facts extracted and appended to target artefact
-- No existing facts in artefact overwritten; extraction is additive
-- Contradictions flagged, not silently resolved
-
-**Invariant:**
-- Knowledge base is append-only during extraction; kb-extraction does not rewrite history
-- Facts extracted from manuscript; not inferred or invented
-
-**Obligations:**
-- Provides drawing forte: extracted facts with scene source reference for traceability
-
 ## Artefact structure (atomic)
 
 The KB lives at `artefacts/` relative to the project

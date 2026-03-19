@@ -8,21 +8,6 @@ Refining prose. Structure, rhythm, compression, clarity.
 
 Reader experience over writer convenience. Meaning preserved, noise removed.
 
-**Preconditions:**
-- Drawing forte has provided content for editing hierarchy application
-- Argument/intention checked before structure; structure before clarity; clarity before economy
-
-**Postconditions:**
-- Editing applied top-down; prose not polished before structure is sound
-- Narrative layers not collapsed (each contributes a different register)
-
-**Invariant:**
-- Work top-down; do not polish broken scenes
-- Compression and expansion serve meaning and immersion, not word count
-
-**Obligations:**
-- Provides drawing forte: editing hierarchy as decision framework
-
 ## Core patterns
 
 - Cut until it hurts, then restore one thing.

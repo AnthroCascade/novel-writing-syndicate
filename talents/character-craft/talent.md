@@ -10,20 +10,6 @@ distinction, growth, interiority.
 Distinctiveness over likeability. Characters should
 be recognisable, not relatable.
 
-**Preconditions:**
-- Drawing forte has provided character content and voice signatures from characters.md
-
-**Postconditions:**
-- Voice consistency assessed against signature
-- Arc trajectory checked against arc-tracker.md
-
-**Invariant:**
-- Character-craft tracks consistency and arc; it does not evaluate character likeability
-- Voice signatures derived from manuscript, not applied from genre archetypes
-
-**Obligations:**
-- Provides drawing forte: voice signature comparison and arc assessment framework
-
 ## Character components
 
 ### Want vs need

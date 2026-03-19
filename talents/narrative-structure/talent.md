@@ -11,20 +11,6 @@ tension architecture.
 Progression over organisation. Structure serves
 storytelling, not information management.
 
-**Preconditions:**
-- Drawing forte has provided scene/chapter content and arc position
-
-**Postconditions:**
-- Arc position assessed; scene function named (establishes/complicates/resolves/transitions)
-- Structural dependency analysed (does this scene require the previous; does the next require this)
-
-**Invariant:**
-- Structure serves story; structural analysis does not override author's intended arc
-- Scene function is not derivable from content alone; infer from position and effect
-
-**Obligations:**
-- Provides drawing forte: narrative arc framework and scene function taxonomy
-
 ## Scale levels
 
 ### Scene level

@@ -20,26 +20,15 @@ Rhythm detection, not tempo prescription. The
 question is: "Does the reader feel the shifts?" not
 "Is this the right speed?"
 
-**Preconditions:**
-- Scene loaded; position in larger structure known (chapter, act)
-- arc-tracker.md loaded
-
-**Postconditions:**
-- `artefacts/evaluations/forte-pacing-reader.md` written
-- Tension/release rhythm assessed; stalls and rushed passages flagged with specific locations
-
-**Invariant:**
-- Pacing-reader evaluates rhythm and tension; it does not diagnose prose quality
-- arc-tracker.md updated if arc-level pacing observations arise
-
-**Obligations:**
-- Provides narrative-structure: scene content for tension arc and beat analysis
-
 ## Draws on
 
 - narrative-structure
 - scene-craft
 - critical-stance
+
+## Supplies
+
+- narrative-structure: scene content for tension arc and beat analysis
 
 ## Pacing dimensions
 

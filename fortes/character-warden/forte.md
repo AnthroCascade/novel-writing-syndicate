@@ -25,29 +25,17 @@ notices, characterisation has failed. If a character
 behaves inconsistently and no one flags it,
 character-warden has failed.
 
-**Preconditions:**
-- characters.md loaded (knowledge base); current scene loaded
-- Character voices and arc trajectories loaded
-
-**Postconditions:**
-- `artefacts/evaluations/forte-character-warden.md` written
-- characters.md updated with any new facts established in this scene
-- Voice inconsistencies and arc violations flagged with specific prior scene reference
-
-**Invariant:**
-- Character-warden tracks consistency; it does not evaluate character quality
-- Voice signatures extracted from manuscript, not invented
-
-**Obligations:**
-- Provides character-craft: character content for voice signature and arc analysis
-- Provides kb-extraction: scene content for character fact extraction
-
 ## Draws on
 
 - character-craft
 - dialogue-craft
 - critical-stance
 - kb-extraction
+
+## Supplies
+
+- character-craft: character content for voice signature and arc analysis
+- kb-extraction: scene content for character fact extraction
 
 ## Character dimensions
 

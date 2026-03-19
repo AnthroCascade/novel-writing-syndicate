@@ -29,28 +29,16 @@ If you swap two characters' dialogue and nobody
 notices, voice-guardian has failed at the character
 level.
 
-**Preconditions:**
-- Scene or chapter loaded; voice markers loaded from voice-craft talent
-- Three silent reads completed before writing findings
-
-**Postconditions:**
-- `artefacts/evaluations/forte-voice-guardian.md` written; non-empty
-- Character voice signatures assessed separately from narrator voice
-- Every flagged item includes exact quote and category
-
-**Invariant:**
-- Default is PRESERVE; unusual phrasing is voice until proven error
-- Voice-guardian does not rewrite; it flags
-
-**Obligations:**
-- Provides voice-craft: prose for rhythm, diction, and stance analysis
-
 ## Draws on
 
 - voice-craft
-- slop-detection
+- cognition-sensing
 - editorial
 - critical-stance
+
+## Supplies
+
+- voice-craft: prose for rhythm, diction, and stance analysis
 
 ## Voice markers (positive — what the author's voice IS)
 
@@ -83,7 +71,7 @@ level.
   movements).
 - Not YA emotional signposting ("she felt a pang of...").
 - Not exotic dialogue verbs ("he expostulated").
-- Deferral patterns from slop-detection talent are
+- Deferral patterns from cognition-sensing talent are
   negative voice markers.
 
 ## Character voice signatures (preserve)
@@ -123,7 +111,7 @@ building feature, not a placeholder.
 - "artful in its defiance" — formal/stiff construction
 - "processed thoughts" — AI jargon replacing interiority
 - "foveal vision" — technical jargon replacing perception
-- Any construction the slop-detector would also flag
+- Any construction the cognition-sensor would also flag
 
 ## Never change (the 12 rules)
 
@@ -234,7 +222,7 @@ may be revising canon.
 ## Lens check
 
 If the prose lacks a distinctive consciousness
-(slop-detection Lens 1) or shows no costly cognition
+(cognition-sensing Lens 1) or shows no costly cognition
 (Lens 2), it is not the author's voice regardless of
 surface markers. Flag the whole piece, not just
 individual phrases.

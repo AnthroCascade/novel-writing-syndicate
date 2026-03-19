@@ -10,20 +10,6 @@ distinctiveness, economy.
 Character over information. Dialogue reveals who
 is speaking, not what the reader needs to know.
 
-**Preconditions:**
-- Drawing forte has provided dialogue content and character voice signatures
-
-**Postconditions:**
-- Character distinctiveness assessed (each character sounds different from others and from narrator)
-- Rhythm and subtext assessed
-
-**Invariant:**
-- Dialogue serves character and story; dialogue-craft does not standardise voices
-- Author's profanity system and rhythm choices preserved
-
-**Obligations:**
-- Provides drawing forte: distinctiveness test and subtext assessment framework
-
 ## Dialogue functions
 
 Every line of dialogue should serve at least one:

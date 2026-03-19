@@ -24,27 +24,16 @@ Cover the tags. Who's speaking? If you can't tell,
 the dialogue has failed. Remove the line. Does the
 scene lose something? If not, the line can go.
 
-**Preconditions:**
-- Scene with dialogue loaded; character voice signatures loaded from characters.md
-- Author's dialogue rhythm and conventions loaded from voice-craft
-
-**Postconditions:**
-- `artefacts/evaluations/forte-dialogue-tuner.md` written
-- Each flag: exact quoted dialogue + character + specific deviation from voice signature
-
-**Invariant:**
-- Dialogue-tuner evaluates character distinctiveness; it does not standardise voices toward each other
-- Author's profanity system and rhythm choices are preserved, not neutralised
-
-**Obligations:**
-- Provides dialogue-craft: dialogue content for rhythm and character-distinctiveness analysis
-- Provides character-craft: character voice signatures for consistency checking
-
 ## Draws on
 
 - dialogue-craft
 - character-craft
 - critical-stance
+
+## Supplies
+
+- dialogue-craft: dialogue content for rhythm and character-distinctiveness analysis
+- character-craft: character voice signatures for consistency checking
 
 ## Dialogue tests
 

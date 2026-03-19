@@ -26,28 +26,16 @@ happened before?" but "does this scene contradict what
 happened before?" Flag contradictions; do not resolve
 them. The author may be revising canon.
 
-**Preconditions:**
-- continuity.md and timeline.md loaded (knowledge base)
-- Current scene loaded
-
-**Postconditions:**
-- `artefacts/evaluations/forte-continuity-keeper.md` written
-- continuity.md and timeline.md updated with any new facts established in this scene
-- Contradictions flagged with specific prior scene reference
-
-**Invariant:**
-- Knowledge base is append-only during evaluation; facts extracted, not rewritten
-- Continuity-keeper tracks what the manuscript commits to; it does not evaluate whether those commitments are good
-
-**Obligations:**
-- Provides kb-extraction: scene content for fact extraction protocol
-
 ## Draws on
 
 - narrative-structure
 - world-building
 - critical-stance
 - kb-extraction
+
+## Supplies
+
+- kb-extraction: scene content for fact extraction
 
 ## Continuity domains
 

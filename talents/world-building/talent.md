@@ -11,20 +11,6 @@ a fictional world maintains its own logic.
 Consistency over plausibility. The world need not
 be realistic. It must be internally coherent.
 
-**Preconditions:**
-- Drawing forte has provided scene content and world-rules.md
-
-**Postconditions:**
-- Internal rule consistency assessed
-- New rules extracted and added to world-rules.md
-
-**Invariant:**
-- World-building tracks internal consistency; it does not impose genre conventions
-- Rules extracted from manuscript; not invented to fill gaps
-
-**Obligations:**
-- Provides drawing forte: rule extraction protocol and consistency checking framework
-
 ## World components
 
 ### Rules

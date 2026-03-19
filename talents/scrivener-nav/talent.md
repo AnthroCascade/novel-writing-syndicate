@@ -11,21 +11,6 @@ content, interpreting metadata.
 Accurate, efficient access to the right content at
 the right scope.
 
-**Preconditions:**
-- Scrivener .scriv project accessible; .scrivx file parseable
-- textutil available for RTF conversion
-
-**Postconditions:**
-- Binder structure parsed; scene UUIDs resolved to content paths
-- RTF content converted to plain text for forte consumption
-
-**Invariant:**
-- Read-only access to Scrivener project; scrivener-nav does not write to .scriv files
-- StatusID respected; maturity-aware commands adapt to scene status
-
-**Obligations:**
-- Provides drawing forte: parsed binder structure and scene content as plain text
-
 ## Bundle structure
 
 A Scrivener 3 project is a directory bundle:
