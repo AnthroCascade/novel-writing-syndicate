@@ -1,7 +1,17 @@
 # Skills Reference
 
-Quick reference for all 19 syndicate commands and how
+Quick reference for all syndicate commands and how
 they relate to each other.
+
+Full command specifications live at `commands/`.
+Each command spec is platform-agnostic — it describes
+what to do in terms of fortes, talents, coordination
+patterns, and settlement conditions. Claude Code
+skills are thin adapters that read and execute these
+specs.
+
+`/improve` is a coordination syndicate command. Its
+spec lives at `../coordination/commands/improve.md`.
 
 ## Reconnaissance (what have I got?)
 
