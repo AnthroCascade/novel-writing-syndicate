@@ -12,7 +12,7 @@ Reconnaissance command. Fires scene-architect, continuity-keeper, and world-audi
 
 ## Coordination pattern
 
-Parallel evaluation. All three fortes fire concurrently. Each reads the same content independently. KB-equipped fortes (continuity-keeper, world-auditor) also output `## KB Entries` sections.
+Independent evaluation. All three fortes execute independently. Each reads the same content. KB-equipped fortes (continuity-keeper, world-auditor) also output `## KB Entries` sections.
 
 ## Context requirements
 
@@ -34,7 +34,7 @@ Before fortes fire:
 
 4. **Load KB context.** Read relevant atomic KB files for continuity-keeper and world-auditor.
 
-5. **Fire all three fortes in parallel.** Scene-architect maps the structure (change, dependency, skip test). Continuity-keeper checks what the scene establishes, depends on, or contradicts. World-auditor catalogues what world rules are invoked and whether they are consistent.
+5. **Execute all three fortes independently.** Scene-architect maps the structure (change, dependency, skip test). Continuity-keeper checks what the scene establishes, depends on, or contradicts. World-auditor catalogues what world rules are invoked and whether they are consistent.
 
 6. **Collect outputs.** Write to `artefacts/evaluations/forte-[name].md`.
 

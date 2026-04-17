@@ -11,7 +11,7 @@ Fires continuity-keeper and world-auditor to check cross-scene consistency withi
 
 ## Coordination pattern
 
-Parallel evaluation. Both fortes fire concurrently. Each checks consistency across the full scope — not individual scenes, but the relationships between them.
+Independent evaluation. Both fortes execute independently. Each checks consistency across the full scope — not individual scenes, but the relationships between them.
 
 ## Context requirements
 
@@ -30,7 +30,7 @@ Before fortes fire:
 
 3. **Load KB context.** Read relevant atomic KB files for both fortes.
 
-4. **Fire both fortes in parallel.** Continuity-keeper checks all continuity domains (timeline, character knowledge gates, character state, technology, geography, object tracking, established rules, narrative promises) across scenes. World-auditor checks that world rules are applied consistently — same technology works the same way, social structures are consistent, geography is accurate.
+4. **Execute both fortes independently.** Continuity-keeper checks all continuity domains (timeline, character knowledge gates, character state, technology, geography, object tracking, established rules, narrative promises) across scenes. World-auditor checks that world rules are applied consistently — same technology works the same way, social structures are consistent, geography is accurate.
 
 5. **Collect outputs.** Write to `artefacts/evaluations/forte-[name].md`.
 

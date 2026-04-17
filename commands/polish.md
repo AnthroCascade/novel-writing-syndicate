@@ -11,7 +11,7 @@ Fires voice-guardian and cognition-sensor to protect voice and detect AI tells. 
 
 ## Coordination pattern
 
-Parallel evaluation. Both fortes fire concurrently. Voice-guardian checks voice markers (positive and negative), character voice signatures, the kill list, and the 12 "never change" rules. Cognition-sensor applies the kill list and both lenses (Another Consciousness, Costly Cognition) from the cognition-sensing talent.
+Independent evaluation. Both fortes execute independently. Voice-guardian checks voice markers (positive and negative), character voice signatures, the kill list, and the 12 "never change" rules. Cognition-sensor applies the kill list and both lenses (Another Consciousness, Costly Cognition) from the cognition-sensing talent.
 
 ## Context requirements
 
@@ -28,7 +28,7 @@ Before fortes fire:
 
 3. **Read content.** Convert RTF to text.
 
-4. **Fire both fortes in parallel.** Voice-guardian applies three silent reads, then the problem list protocol (max 15 per scene), the red flag test, and the lens check. Cognition-sensor reads once for content, once for slop (assume AI-generated and search for evidence otherwise), and a third time for costly cognition.
+4. **Execute both fortes independently.** Voice-guardian applies three silent reads, then the problem list protocol (max 15 per scene), the red flag test, and the lens check. Cognition-sensor reads once for content, once for slop (assume AI-generated and search for evidence otherwise), and a third time for costly cognition.
 
 5. **Collect outputs.** Write to `artefacts/evaluations/forte-[name].md`.
 

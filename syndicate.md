@@ -145,13 +145,13 @@ asks the author to specify.
 
 | Command | Phase | Fortes | Default pattern | Settles when |
 |---|---|---|---|---|
-| mob | (all) | all 8 evaluative | parallel-evaluation | Synthesis delivered |
+| mob | (all) | all 8 evaluative | independent-evaluation | Synthesis delivered |
 | draft | Draft | prose-scribe + convergence loop | convergence-loop | Author accepts |
-| explore | Explore | scene-architect, continuity-keeper, world-auditor | parallel-evaluation | Scope mapped |
-| evaluate | Evaluate | scene-architect, character-warden, dialogue-tuner, continuity-keeper, pacing-reader | parallel-evaluation | Scene works |
-| polish | Polish | voice-guardian, cognition-sensor | parallel-evaluation | Voice clean |
-| audit | Audit | continuity-keeper, world-auditor | parallel-evaluation | No contradictions |
-| revise | Revise | prose-scribe (corrections) | single-agent | Corrections applied |
+| explore | Explore | scene-architect, continuity-keeper, world-auditor | independent-evaluation | Scope mapped |
+| evaluate | Evaluate | scene-architect, character-warden, dialogue-tuner, continuity-keeper, pacing-reader | independent-evaluation | Scene works |
+| polish | Polish | voice-guardian, cognition-sensor | independent-evaluation | Voice clean |
+| audit | Audit | continuity-keeper, world-auditor | independent-evaluation | No contradictions |
+| revise | Revise | prose-scribe (corrections) | single-forte | Corrections applied |
 
 ### Editorial process commands
 

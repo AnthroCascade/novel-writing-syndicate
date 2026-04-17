@@ -14,7 +14,7 @@ Full sub-edit pipeline: evaluate voice and AI tells, produce problem list, autho
 
 Three-phase pipeline with approval gate.
 
-**Phase 1 — Evaluate.** Voice-guardian and cognition-sensor fire in parallel. Voice-guardian applies three silent reads, problem list (max 15), red flag test, never-change rules, and lens check. Cognition-sensor applies the kill list and both lenses (Another Consciousness, Costly Cognition).
+**Phase 1 — Evaluate.** Voice-guardian and cognition-sensor execute independently. Voice-guardian applies three silent reads, problem list (max 15), red flag test, never-change rules, and lens check. Cognition-sensor applies the kill list and both lenses (Another Consciousness, Costly Cognition).
 
 **Phase 2 — Problem list and approve.** The orchestrator compiles findings into a problem list. Each item: exact quote, issue, proposed fix or "PRESERVE + flag." The author approves, modifies, or rejects each fix individually.
 
@@ -34,7 +34,7 @@ Before evaluation fortes fire:
 
 2. **Check maturity.** Sub-editing at To Do (1) or First Draft (2) is premature — the prose is still settling. Report this and ask whether to proceed. At Second Draft (28), proceed.
 
-3. **Fire voice-guardian and cognition-sensor in parallel (Phase 1).** Both default to PRESERVE when uncertain. Voice-guardian checks: voice markers (positive and negative), character voice signatures, the kill list, the 12 never-change rules, smart quotes, Australian spelling. Cognition-sensor checks: kill list items, deferral patterns, nominalisation, both lenses.
+3. **Execute voice-guardian and cognition-sensor independently (Phase 1).** Both default to PRESERVE when uncertain. Voice-guardian checks: voice markers (positive and negative), character voice signatures, the kill list, the 12 never-change rules, smart quotes, Australian spelling. Cognition-sensor checks: kill list items, deferral patterns, nominalisation, both lenses.
 
 4. **Compile problem list (Phase 2).** Merge findings. For each item: exact quote, one-sentence issue, minimal fix, "necessary not better" filter. Separate craft-level findings from surface corrections (typos, spacing, punctuation). Present individually to the author.
 

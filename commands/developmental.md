@@ -18,7 +18,7 @@ Full developmental edit pipeline: evaluate, propose changes, author approval gat
 
 Three-phase pipeline with approval gate.
 
-**Phase 1 — Evaluate.** Five evaluative fortes fire in parallel. Each produces a problem list (max 15 per scene) following the developmental editing governance: three silent reads, exact quotes, one-sentence issues, minimal fixes, "necessary not better" filter, craft-level findings mandatory.
+**Phase 1 — Evaluate.** Five evaluative fortes execute independently. Each produces a problem list (max 15 per scene) following the developmental editing governance: three silent reads, exact quotes, one-sentence issues, minimal fixes, "necessary not better" filter, craft-level findings mandatory.
 
 **Phase 2 — Propose and approve.** The orchestrator compiles findings into a proposal list. Each proposal: exact quote, issue, proposed fix, severity. The author approves, modifies, or rejects each proposal individually. This is the approval gate — nothing proceeds without explicit author decision.
 
@@ -42,7 +42,7 @@ Before evaluation fortes fire:
 
 3. **Inventory what's working.** Before evaluation, the orchestrator reads the prose and produces a paragraph-level inventory of what's working. Be specific — name what makes each passage good. This protects against faustian regression in the redraft.
 
-4. **Fire evaluative fortes in parallel (Phase 1).** Each follows the developmental editing governance: three silent reads, problem list, uncertainty flagging, escalation protocol, craft over copy.
+4. **Execute evaluative fortes independently (Phase 1).** Each follows the developmental editing governance: three silent reads, problem list, uncertainty flagging, escalation protocol, craft over copy.
 
 5. **Compile proposals (Phase 2).** Collect findings. Remove duplicates. Check for symptom fixing — are multiple fortes converging on the same shallow fix? If so, ask the structural question the surface issue signals. Present proposals individually to the author for approval.
 

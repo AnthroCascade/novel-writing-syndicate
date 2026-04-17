@@ -14,7 +14,7 @@ Fires the five storytelling fortes to assess whether the scene works as storytel
 
 ## Coordination pattern
 
-Parallel evaluation. All five fortes fire concurrently against the same static input. No forte receives another forte's output. KB-equipped fortes (continuity-keeper, character-warden) also output `## KB Entries` sections.
+Independent evaluation. All five fortes execute independently against the same static input. No forte receives another forte's output. KB-equipped fortes (continuity-keeper, character-warden) also output `## KB Entries` sections.
 
 ## Context requirements
 
@@ -36,7 +36,7 @@ Before fortes fire:
 
 4. **Load KB context.** Read relevant atomic KB files for KB-equipped fortes.
 
-5. **Fire all five fortes in parallel.** Each receives: its spec, resolved talents, scene content inline, and forte-specific KB context per the table above.
+5. **Fire all five fortes independently.** Each fires in its own Agent call with: its spec, resolved talents, scene content, and forte-specific KB context per the table above.
 
 6. **Collect outputs.** Write to `artefacts/evaluations/forte-[name].md`.
 

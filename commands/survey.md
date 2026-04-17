@@ -12,7 +12,7 @@ Walks scenes extracting facts to the persistent knowledge base. Fires continuity
 
 ## Coordination pattern
 
-Sequential scene walk with parallel forte execution per scene. For each scene in the scope, all three KB-equipped fortes fire in parallel in extraction mode. The orchestrator merges entries after each scene before proceeding to the next.
+Sequential scene walk with independent forte execution per scene. For each scene in the scope, all three KB-equipped fortes execute independently in extraction mode. The orchestrator merges entries after each scene before proceeding to the next.
 
 ## Context requirements
 
@@ -31,7 +31,7 @@ Before fortes fire for each scene:
 
 3. **Walk scenes in reading order.** For each scene:
    - Read scene content (convert RTF to text)
-   - Fire all three fortes in parallel, each in KB extraction mode
+   - Execute all three fortes independently, each in KB extraction mode
    - Collect `## KB Entries` sections from each forte
    - Merge entries into the KB per the merge protocol: fold into existing structure, no duplicates, state progressions overwrite, cross-reference wikilinks maintained, `_index.md` updated
    - Report progress: `Surveyed: [scene title] — [N] new, [M] updated entries`

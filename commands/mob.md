@@ -1,6 +1,6 @@
 # mob
 
-Full evaluative pass against prose at any scope. Fires all 8 evaluative fortes in parallel. Use this when phase boundaries are unclear or you want a complete assessment. Phase-specific commands (`/evaluate`, `/polish`, `/audit`) are the norm — `/mob` is the exception.
+Full evaluative pass against prose at any scope. Executes all 8 evaluative fortes independently. Use this when phase boundaries are unclear or you want a complete assessment. Phase-specific commands (`/evaluate`, `/polish`, `/audit`) are the norm — `/mob` is the exception.
 
 ## Fortes
 
@@ -17,7 +17,7 @@ Full evaluative pass against prose at any scope. Fires all 8 evaluative fortes i
 
 ## Coordination pattern
 
-Parallel evaluation. All 8 fortes fire concurrently against the same static input. No forte receives another forte's spec or output. Each writes to a separate evaluation file. KB-equipped fortes (continuity-keeper, character-warden, world-auditor) also output `## KB Entries` sections. The orchestrator persists KB entries per the merge protocol after evaluation completes.
+Independent evaluation. All 8 fortes execute independently against the same static input. No forte receives another forte's spec or output. Each writes to a separate evaluation file. KB-equipped fortes (continuity-keeper, character-warden, world-auditor) also output `## KB Entries` sections. The orchestrator persists KB entries per the merge protocol after evaluation completes.
 
 ## Context requirements
 
@@ -39,7 +39,7 @@ Before fortes fire:
 
 4. **Load KB context.** For each KB-equipped forte, read the relevant `_index.md` and only the atomic files for entities in the current scope.
 
-5. **Fire all evaluative fortes in parallel.** Each receives: its spec, its resolved talents, scene content inline, and any forte-specific KB context per the table above.
+5. **Fire all evaluative fortes independently.** Each fires in its own Agent call with: its spec, its resolved talents, scene content, and any forte-specific KB context per the table above.
 
 6. **Collect evaluation outputs.** Write each to `artefacts/evaluations/forte-[name].md`.
 
