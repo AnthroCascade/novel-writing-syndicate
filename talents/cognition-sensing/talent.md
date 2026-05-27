@@ -109,15 +109,15 @@ process.*
 - Mechanical parallelism
 - Headers that taxonomise or follow a formula
 
-## Nominalisation accumulation
+## Noun pile-up
 
 AI prose defaults to noun-phrase chains. Subjects
 that don't act, verbs reduced to copulas, preposition
 chains doing the work verbs should do.
 
-**Verb-strip test:** Strip the verbs. If the sentence
-still reads as noun phrases connected by prepositions,
-the verbs weren't load-bearing.
+**Check:** Strip the verbs. If the sentence still reads
+as noun phrases connected by prepositions, the verbs
+weren't load-bearing.
 
 ## Deferral patterns
 
