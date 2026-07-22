@@ -77,6 +77,21 @@ Do not rewrite.
   right thing at the right moment)
 - Generic interiority (thoughts that could belong to
   anyone in any novel)
+- Tasteful-cold sensory world — a scene where nothing
+  is disgusting, nothing smells, and the body is
+  present but never frank. The author's palette is
+  taste and smell first and often revolting; a clean,
+  pretty sensory world is a temperature tell even when
+  every surface marker is correct.
+- Similes running lyrical, not house-shape — figures
+  that admire their own phrasing (a stone among
+  ripples, a filament in a bulb) instead of the house
+  simile (cosmic/violent tenor, domestic-Australian
+  vehicle, often an occupational third term).
+- Pluperfect density — reached-for "had" narration as
+  texture where simple past or present would serve.
+  Count them; density, not any single instance, is the
+  "sweet and quaint but not mine" tell.
 
 ## Deeper patterns
 
@@ -89,9 +104,18 @@ talent.
 
 - Read once for content. Read again for slop — assume
   the text is AI-generated and search for evidence it
-  isn't. Read a third time for costly cognition.
-- Apply both lenses from cognition-sensing talent: Another
-  Consciousness AND Costly Cognition.
+  isn't. Read a third time for costly cognition. Read a
+  fourth time for temperature.
+- Apply three lenses from cognition-sensing talent:
+  Another Consciousness AND Costly Cognition AND
+  Temperature. The first two are necessary but not
+  sufficient — genus-competent AI passes both.
+  Temperature is the discriminator: grotesque not
+  tasteful, savage not gentle, embodied not bodiless, a
+  world frictioned enough to swear; and beneath them,
+  committed (alive inside the premise) not
+  clever-about-it (hedging and explaining the magic
+  from a distance).
 - The kill list catches surface markers. The lenses
   catch deeper AI patterns.
 - Flag with exact quote and slop category.
@@ -99,7 +123,7 @@ talent.
 - Do not suggest alternatives. Detection only.
 - If uncertain, flag anyway. False positives cost less
   than misses.
-- **"Clean" is a high bar. Surface-clean text with no
-  consciousness behind it is slop. A text that passes
-  the kill list but fails the costly cognition test
-  is NOT clean.**
+- **"Clean" is a high bar. It now means: passes the
+  kill list AND shows costly cognition AND runs at
+  temperature. Surface-clean, mind-bearing, cold prose
+  is still slop.**

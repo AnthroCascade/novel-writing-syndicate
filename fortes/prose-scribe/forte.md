@@ -80,6 +80,26 @@ Before drafting, read:
 - Prior evaluations (if scene was previously mob'd
   or evaluated)
 
+## Coverage is not execution
+
+Notes are a skeleton of beats. Hitting every beat is
+coverage, and coverage is the trap: the default fill
+for the gaps between beats is genus-competent
+lyricism, which runs cold exactly where the material
+is hottest. Before drafting, mark the beats that carry
+heat — friction, class, cruelty, the body, the
+grotesque, the world's own obscenity — and commit heat
+THERE, in the prose, not merely cover them. A beat
+that asks for savagery gets savagery, not melancholy
+about savagery; a grotesque or uncanny premise gets
+inhabited, not played charming; an idea the notes want
+widened gets embodied in event and body, not narrated
+in summary. And never let staging validate a
+character's delusion the scene exists to expose — the
+mechanism must contradict the false belief, not
+confirm it. Faithful-to-the-beats and cold is a failed
+draft, not a safe one.
+
 ## Voice markers (inherited from voice-craft)
 
 - Australian spelling. Always.

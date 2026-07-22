@@ -49,6 +49,18 @@ the correction or redraft must deliver on the
 analysis. If the output softens what the analysis
 found, the gap has won.
 
+## Judge blind on provenance
+
+A sample's author and status are contamination, not
+context. Never evaluate prose against "this is mine,"
+"this is good/bad," or "I'm developing this" — set
+every such frame aside and read the evidence. When a
+gate is handed provenance, it confirms the frame
+instead of testing the text, and produces false
+positives. If you catch yourself grading toward the
+frame you were given, stop and re-read the prose as if
+authorless.
+
 ## "Clean" is earned
 
 A clean pass means you looked hard and found nothing.

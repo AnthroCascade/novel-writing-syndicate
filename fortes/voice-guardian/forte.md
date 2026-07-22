@@ -223,8 +223,37 @@ may be revising canon.
 
 ## Lens check
 
-If the prose lacks a distinctive consciousness
-(cognition-sensing Lens 1) or shows no costly cognition
-(Lens 2), it is not the author's voice regardless of
-surface markers. Flag the whole piece, not just
-individual phrases.
+Lens 1 (distinctive consciousness) and Lens 2 (costly
+cognition) are necessary but NOT sufficient. A strong
+mimic passes both on genus competence alone — a built
+premise and a real emotional turn are marks of good
+writing in the tradition, not of THIS author. Apply a
+third lens.
+
+Lens 3 — Temperature. Ask: is it grotesque where it
+could be tasteful (taste/smell first, frequently
+disgusting), savage where it could be gentle (cruelty
+played straight, absolution denied), embodied where it
+could be bodiless (the fiction thinks in bodies), and
+does its world carry enough friction to coin and
+theologise its own obscenity (tax/jank)? A draft that
+is clean, charming, and cold is in the genus, not the
+voice.
+
+The deepest test is commitment: is the draft clever
+ABOUT its premise from a safe distance — animating,
+hedging, rationalising the magic as it introduces it —
+or alive INSIDE it, inhabiting the impossible
+matter-of-factly and unexplained (magic realism)? A
+piece can tick every structural marker and still be
+genus-work if it will not commit.
+
+Register caveat: temperature is "as hot as the material
+allows," not "maximally grotesque everywhere." Quiet
+beats withdraw the grotesque legitimately, but the body
+stays present; the flag is for prose leaking cool
+because lyrical-tasteful is the easy default.
+
+Fail any lens and it is not the author's voice
+regardless of surface markers. Flag the whole piece,
+not individual phrases.

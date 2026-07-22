@@ -78,6 +78,16 @@ How the scene releases the reader. Best exits:
   answer "so what changed?" If not, the scene is
   illustrative, not narrative.
 
+## Irony logic — staging must not vindicate the delusion
+
+When a scene exists to expose a character's false
+belief, the staging must contradict the belief, not
+mechanically confirm it. Check the causal chain: does
+the scene's own machinery accidentally prove the thing
+the character is wrong about? If the reader can read
+the mechanism as vindicating the delusion, the irony
+has inverted.
+
 ## Anti-patterns
 
 - Scenes that begin with waking up
