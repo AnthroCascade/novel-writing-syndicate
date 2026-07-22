@@ -1,5 +1,7 @@
 # Dialogue Tuner
 
+> **Model demand: judgment.** Hears whether every line sounds like its speaker and earns its place; irreducible reader judgment, not generation.
+
 ## Game aim
 
 Every line sounds like its speaker, advances the

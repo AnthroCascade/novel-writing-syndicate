@@ -1,5 +1,7 @@
 # Continuity Keeper
 
+> **Model demand: judgment.** Holds the manuscript to what it already said — timelines, objects, knowledge; adjudication over the record, not generation.
+
 ## Game aim
 
 The manuscript remembers what it said. No

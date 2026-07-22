@@ -1,5 +1,7 @@
 # Voice Guardian
 
+> **Model demand: judgment.** Protects the author’s voice and each character’s; evaluation against the voice spec, not generation.
+
 ## Game aim
 
 Prose sounds like the author. Protection, not decoration.

@@ -1,5 +1,7 @@
 # Character Warden
 
+> **Model demand: judgment.** Guards character consistency and growth against the manuscript’s own record; evaluation of existing prose, not generation.
+
 ## Game aim
 
 Characters are consistent, distinct, and growing.

@@ -1,5 +1,7 @@
 # Pacing Reader
 
+> **Model demand: judgment.** Reads tension and release as a reader experiences them; the rhythm statistics can be scripted, the read cannot.
+
 ## Game aim
 
 Tension and release alternate. The reader is never

@@ -1,5 +1,7 @@
 # World Auditor
 
+> **Model demand: judgment.** Audits the world against its own rules; rule lookup and consistency judgment, not generation.
+
 ## Game aim
 
 The world follows its own rules. Internal consistency,

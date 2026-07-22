@@ -1,5 +1,7 @@
 # Prose Scribe
 
+> **Model demand: generative.** Drafts scene prose in the author’s voice; generation where the voice must hold, the syndicate’s heaviest demand.
+
 ## Game aim
 
 Draft scene prose that sounds like the author.

@@ -1,5 +1,7 @@
 # Scene Architect
 
+> **Model demand: judgment.** Tests whether each scene changes something and earns its keep; structural adjudication, not drafting.
+
 ## Game aim
 
 Scenes build. Each scene changes something. The

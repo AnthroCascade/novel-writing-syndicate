@@ -1,5 +1,7 @@
 # Cognition Sensor
 
+> **Model demand: judgment.** Senses the AI tells a reader would feel; evaluates existing prose, it does not generate.
+
 ## Game aim
 
 Absence of AI tells. The reader never thinks "a machine
